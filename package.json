@@ -1,10 +1,10 @@
 {
-	"name": "gifsicle",
+	"name": "gifsicle-changba",
 	"version": "5.1.0",
 	"description": "gifsicle wrapper that makes it seamlessly available as a local dependency",
 	"license": "MIT",
-	"repository": "imagemin/gifsicle-bin",
-	"funding": "https://github.com/imagemin/gisicle-bin?sponsor=1",
+	"repository": "ChangbaFE/gifsicle-bin",
+	"funding": "https://github.com/ChangbaFE/gifsicle-bin?sponsor=1",
 	"bin": "cli.js",
 	"engines": {
 		"node": ">=10"

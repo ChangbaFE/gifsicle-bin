@@ -1,4 +1,4 @@
-# gifsicle-bin [![Build Status](https://travis-ci.org/imagemin/gifsicle-bin.svg?branch=master)](https://travis-ci.org/imagemin/gifsicle-bin)
+# gifsicle-changba [![Build Status](https://travis-ci.org/ChangbaFE/gifsicle-bin.svg?branch=master)](https://travis-ci.org/ChangbaFE/gifsicle-bin)
 
 > gifsicle manipulates GIF image files in many different ways. Depending on command line options, it can merge several GIFs into a GIF animation; explode an animation into its component frames; change individual frames in an animation; turn interlacing on and off; add transparency and much more.
 
@@ -8,7 +8,7 @@ You probably want [`imagemin-gifsicle`](https://github.com/imagemin/imagemin-gif
 ## Install
 
 ```
-$ npm install gifsicle
+$ npm install gifsicle-changba
 ```
 
 
@@ -16,7 +16,7 @@ $ npm install gifsicle
 
 ```js
 const {execFile} = require('child_process');
-const gifsicle = require('gifsicle');
+const gifsicle = require('gifsicle-changba');
 
 execFile(gifsicle, ['-o', 'output.gif', 'input.gif'], err => {
 	console.log('Image minified!');

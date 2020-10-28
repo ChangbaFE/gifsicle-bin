@@ -1,4 +1,9 @@
 node_modules
 vendor/gifsicle*
 vendor/share/man
+vendor/macos
+vendor/win
+vendor/linux
+vendor/freebsd
+vendor/sunos
 yarn.lock
